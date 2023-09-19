@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header{
+    background-color: purple;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cian{
+    background-color: cyan;
+    width: 60px;
+    height: 30px;
+}
+
+section{
+    background-color: yellow;
+    height: 100vh;
+    flex-basis: 66%;
+}
+
+aside{
+    background-color: green;
+    height: 100vh;
+    flex-basis: 33%;
+}
+
+footer{
+    height: 50px;
+    flex-grow: 1;
+    background-color: grey;
+    flex-basis: 100%;
+
+}
+
+.break{
+    height: 0;
+    flex-basis: 70%;  
+}

@@ -1,0 +1,34 @@
+.div-wrapper{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: start;
+    align-items: center;
+    background-color: yellow;
+}
+.item-wrapper{
+    display: flex;
+    gap: 2px;
+}
+
+.flex-item{
+     height: 100px;
+     width: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    flex: 2;
+    display: none;
+}
+
+.green{
+    background-color: green;
+    flex: 1;
+    display: none;
+}
+
+.purple{
+    background-color: purple;
+    flex: 1;
+}

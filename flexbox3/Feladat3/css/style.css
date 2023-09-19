@@ -1,0 +1,59 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.cyan{
+    background-color: cyan;
+    height: 50px;
+    flex-basis: 100%;
+}
+
+.orange{
+    background-color: orange;
+    height: 300px;
+    flex-basis: 10%;
+
+}
+.red{
+    background-color: red;
+    height: 300px;
+    flex-basis: 60%;
+
+}
+.purple{
+    background-color: purple;
+    height: 300px;
+    flex-basis: 10%;
+
+
+}
+.white{
+    flex-basis: 10%;
+}
+.blue{
+    background-color: blue;
+    height: 50px;
+    flex-basis: 100%;
+
+}
+
+.black{
+    background-color: black;
+    width: 50px;
+    align-self: flex-end;
+    flex-basis: 50px;
+}
+
+body{
+    height: 100%;
+    background-color: blanchedalmond;
+
+}
